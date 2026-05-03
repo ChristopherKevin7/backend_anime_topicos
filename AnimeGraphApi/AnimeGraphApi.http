@@ -1,0 +1,6 @@
+@AnimeGraphApi_HostAddress = http://localhost:5128
+
+GET {{AnimeGraphApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AnimeGraphApi</name>
+    </assembly>
+    <members>
+        <member name="M:AnimeGraphApi.Controllers.AnimeController.Search(System.String,System.Int32)">
+            <summary>Busca animes por título parcial (case-insensitive). Útil para descobrir o título exato.</summary>
+        </member>
+        <member name="M:AnimeGraphApi.Controllers.AnimeController.GetAnime(System.String)">
+            <summary>Busca um anime pelo título, retornando dados gerais, gêneros, produtores e staff.</summary>
+        </member>
+        <member name="M:AnimeGraphApi.Controllers.AnimeController.GetCharacters(System.String,System.Int32,System.Int32)">
+            <summary>Lista os personagens de um anime com seu papel (Main/Supporting).</summary>
+        </member>
+        <member name="M:AnimeGraphApi.Controllers.AnimeController.GetRelatedByStudio(System.String,System.Int32,System.Int32)">
+            <summary>Lista outros animes produzidos pelo mesmo estúdio.</summary>
+        </member>
+        <member name="M:AnimeGraphApi.Controllers.AnimeController.GetRelatedByStaff(System.String,System.Int32,System.Int32)">
+            <summary>Lista outros animes que compartilham membros de staff.</summary>
+        </member>
+        <member name="M:AnimeGraphApi.Controllers.CharacterController.Search(System.String,System.Int32)">
+            <summary>Busca personagens por nome parcial (case-insensitive). Útil para descobrir o nome exato.</summary>
+        </member>
+        <member name="M:AnimeGraphApi.Controllers.CharacterController.GetVoiceActors(System.String,System.Int32,System.Int32)">
+            <summary>Lista os dubladores de um personagem por idioma.</summary>
+        </member>
+        <member name="M:AnimeGraphApi.Controllers.CharacterController.GetRelatedByVoiceActor(System.String,System.Int32,System.Int32)">
+            <summary>Lista personagens que compartilham o mesmo dublador.</summary>
+        </member>
+        <member name="M:AnimeGraphApi.Controllers.CharacterController.GetPath(System.String,System.String)">
+            <summary>Retorna o caminho mais curto entre dois personagens no grafo.</summary>
+        </member>
+        <member name="M:AnimeGraphApi.Controllers.GraphController.GetRelations(System.String,System.Int32,System.Int32)">
+            <summary>Lista todos os nós relacionados a um nó (distância máxima 1), pesquisando pelo nome.</summary>
+        </member>
+        <member name="M:AnimeGraphApi.Controllers.HealthController.HealthCheck">
+            <summary>Verifica a conectividade com o banco de dados Neo4j.</summary>
+        </member>
+        <member name="M:AnimeGraphApi.Controllers.HealthController.Debug">
+            <summary>
+            Diagnóstico do banco: retorna labels existentes, contagem por tipo e 3 títulos de amostra.
+            Use este endpoint se os outros retornam vazio para confirmar o schema do banco.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -56,7 +56,7 @@ public class CharacterRepository : ICharacterRepository
             ORDER BY rank, c.name
             LIMIT 1
             MATCH (c)-[r:VOICED_BY]->(v:VOICE_ACTOR)
-            RETURN v.name AS name, r.language AS language
+            RETURN DISTINCT v.name AS name, r.language AS language
             ORDER BY r.language
             SKIP toInteger($skip) LIMIT toInteger($limit)";
 
@@ -104,8 +104,13 @@ public class CharacterRepository : ICharacterRepository
             MATCH (c)-[:VOICED_BY]->(v:VOICE_ACTOR)<-[:VOICED_BY]-(other:CHARACTER)
             WHERE NOT other.name STARTS WITH 'Unknown'
               AND c <> other
+            WITH DISTINCT other
             OPTIONAL MATCH (a:ANIME)-[ar:FEATURES_CHARACTER]->(other)
-            RETURN DISTINCT other.name AS characterName, a.title AS animeTitle, ar.role AS role
+            WITH other.name AS characterName,
+                 head(collect(a.title)) AS animeTitle,
+                 head(collect(ar.role)) AS role
+            RETURN characterName, animeTitle, role
+            ORDER BY characterName
             SKIP toInteger($skip) LIMIT toInteger($limit)";
 
         var (total, items) = await session.ExecuteReadAsync(async tx =>

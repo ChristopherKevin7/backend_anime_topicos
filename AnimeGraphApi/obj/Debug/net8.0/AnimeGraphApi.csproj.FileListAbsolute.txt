@@ -35,3 +35,4 @@ C:\Users\Kevin Costa\Desktop\Topicos\backend\AnimeGraphApi\obj\Debug\net8.0\Anim
 C:\Users\Kevin Costa\Desktop\Topicos\backend\AnimeGraphApi\obj\Debug\net8.0\AnimeGraphApi.pdb
 C:\Users\Kevin Costa\Desktop\Topicos\backend\AnimeGraphApi\obj\Debug\net8.0\AnimeGraphApi.genruntimeconfig.cache
 C:\Users\Kevin Costa\Desktop\Topicos\backend\AnimeGraphApi\obj\Debug\net8.0\ref\AnimeGraphApi.dll
+C:\Users\Kevin Costa\Desktop\Topicos\backend\AnimeGraphApi\obj\Debug\net8.0\AnimeGraphApi.sourcelink.json

@@ -654,24 +654,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kevin Costa\\.nuget\\packages\\": {}
+    "C:\\Users\\italo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kevin Costa\\Desktop\\Topicos\\backend\\AnimeGraphApi\\AnimeGraphApi.csproj",
+      "projectUniqueName": "H:\\p\\backend_anime_topicos\\AnimeGraphApi\\AnimeGraphApi.csproj",
       "projectName": "AnimeGraphApi",
-      "projectPath": "C:\\Users\\Kevin Costa\\Desktop\\Topicos\\backend\\AnimeGraphApi\\AnimeGraphApi.csproj",
-      "packagesPath": "C:\\Users\\Kevin Costa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kevin Costa\\Desktop\\Topicos\\backend\\AnimeGraphApi\\obj\\",
+      "projectPath": "H:\\p\\backend_anime_topicos\\AnimeGraphApi\\AnimeGraphApi.csproj",
+      "packagesPath": "C:\\Users\\italo\\.nuget\\packages\\",
+      "outputPath": "H:\\p\\backend_anime_topicos\\AnimeGraphApi\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Kevin Costa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\italo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -689,7 +696,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -727,7 +735,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

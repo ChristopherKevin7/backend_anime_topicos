@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "6sOMCbUlKDdqVDtQ2OsQLNwawCrVmFYgzGJn5ux6NHQ=",
-  "Source": "AnimeGraphApi",
-  "BasePath": "_content/AnimeGraphApi",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"XHO5gMBYzjuXgnQ7+Hq2k4qvv7VDSUwPWX95/QjPQVw=","Source":"AnimeGraphApi","BasePath":"_content/AnimeGraphApi","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

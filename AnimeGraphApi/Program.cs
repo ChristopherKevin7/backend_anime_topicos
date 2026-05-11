@@ -29,6 +29,15 @@ builder.Services.AddScoped<IAnimeService, AnimeService>();
 builder.Services.AddScoped<ICharacterService, CharacterService>();
 builder.Services.AddScoped<IGraphService, GraphService>();
 
+// ── CORS ──────────────────────────────────────────────────────────────────────
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("Frontend", policy =>
+        policy.WithOrigins("http://localhost:5173")
+              .AllowAnyHeader()
+              .AllowAnyMethod());
+});
+
 // ── Controllers + JSON ───────────────────────────────────────────────────────
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
@@ -68,7 +77,7 @@ app.UseSwaggerUI(c =>
     c.RoutePrefix = "swagger";
 });
 
-app.UseHttpsRedirection();
+app.UseCors("Frontend");
 app.MapControllers();
 
 app.Run();

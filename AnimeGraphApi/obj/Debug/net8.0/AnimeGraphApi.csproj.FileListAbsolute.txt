@@ -36,3 +36,44 @@ C:\Users\Kevin Costa\Desktop\Topicos\backend\AnimeGraphApi\obj\Debug\net8.0\Anim
 C:\Users\Kevin Costa\Desktop\Topicos\backend\AnimeGraphApi\obj\Debug\net8.0\AnimeGraphApi.genruntimeconfig.cache
 C:\Users\Kevin Costa\Desktop\Topicos\backend\AnimeGraphApi\obj\Debug\net8.0\ref\AnimeGraphApi.dll
 C:\Users\Kevin Costa\Desktop\Topicos\backend\AnimeGraphApi\obj\Debug\net8.0\AnimeGraphApi.sourcelink.json
+H:\p\backend_anime_topicos\AnimeGraphApi\bin\Debug\net8.0\appsettings.Development.json
+H:\p\backend_anime_topicos\AnimeGraphApi\bin\Debug\net8.0\appsettings.json
+H:\p\backend_anime_topicos\AnimeGraphApi\bin\Debug\net8.0\AnimeGraphApi.staticwebassets.endpoints.json
+H:\p\backend_anime_topicos\AnimeGraphApi\bin\Debug\net8.0\AnimeGraphApi.exe
+H:\p\backend_anime_topicos\AnimeGraphApi\bin\Debug\net8.0\AnimeGraphApi.deps.json
+H:\p\backend_anime_topicos\AnimeGraphApi\bin\Debug\net8.0\AnimeGraphApi.runtimeconfig.json
+H:\p\backend_anime_topicos\AnimeGraphApi\bin\Debug\net8.0\AnimeGraphApi.dll
+H:\p\backend_anime_topicos\AnimeGraphApi\bin\Debug\net8.0\AnimeGraphApi.pdb
+H:\p\backend_anime_topicos\AnimeGraphApi\bin\Debug\net8.0\AnimeGraphApi.xml
+H:\p\backend_anime_topicos\AnimeGraphApi\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+H:\p\backend_anime_topicos\AnimeGraphApi\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+H:\p\backend_anime_topicos\AnimeGraphApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+H:\p\backend_anime_topicos\AnimeGraphApi\bin\Debug\net8.0\Neo4j.Driver.dll
+H:\p\backend_anime_topicos\AnimeGraphApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+H:\p\backend_anime_topicos\AnimeGraphApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+H:\p\backend_anime_topicos\AnimeGraphApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+H:\p\backend_anime_topicos\AnimeGraphApi\obj\Debug\net8.0\AnimeGraphApi.csproj.AssemblyReference.cache
+H:\p\backend_anime_topicos\AnimeGraphApi\obj\Debug\net8.0\rpswa.dswa.cache.json
+H:\p\backend_anime_topicos\AnimeGraphApi\obj\Debug\net8.0\AnimeGraphApi.GeneratedMSBuildEditorConfig.editorconfig
+H:\p\backend_anime_topicos\AnimeGraphApi\obj\Debug\net8.0\AnimeGraphApi.AssemblyInfoInputs.cache
+H:\p\backend_anime_topicos\AnimeGraphApi\obj\Debug\net8.0\AnimeGraphApi.AssemblyInfo.cs
+H:\p\backend_anime_topicos\AnimeGraphApi\obj\Debug\net8.0\AnimeGraphApi.csproj.CoreCompileInputs.cache
+H:\p\backend_anime_topicos\AnimeGraphApi\obj\Debug\net8.0\AnimeGraphApi.MvcApplicationPartsAssemblyInfo.cs
+H:\p\backend_anime_topicos\AnimeGraphApi\obj\Debug\net8.0\AnimeGraphApi.MvcApplicationPartsAssemblyInfo.cache
+H:\p\backend_anime_topicos\AnimeGraphApi\obj\Debug\net8.0\AnimeGraphApi.sourcelink.json
+H:\p\backend_anime_topicos\AnimeGraphApi\obj\Debug\net8.0\rjimswa.dswa.cache.json
+H:\p\backend_anime_topicos\AnimeGraphApi\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+H:\p\backend_anime_topicos\AnimeGraphApi\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+H:\p\backend_anime_topicos\AnimeGraphApi\obj\Debug\net8.0\scopedcss\bundle\AnimeGraphApi.styles.css
+H:\p\backend_anime_topicos\AnimeGraphApi\obj\Debug\net8.0\staticwebassets.build.json
+H:\p\backend_anime_topicos\AnimeGraphApi\obj\Debug\net8.0\staticwebassets.build.json.cache
+H:\p\backend_anime_topicos\AnimeGraphApi\obj\Debug\net8.0\staticwebassets.development.json
+H:\p\backend_anime_topicos\AnimeGraphApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+H:\p\backend_anime_topicos\AnimeGraphApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+H:\p\backend_anime_topicos\AnimeGraphApi\obj\Debug\net8.0\AnimeGra.3FB03F61.Up2Date
+H:\p\backend_anime_topicos\AnimeGraphApi\obj\Debug\net8.0\AnimeGraphApi.dll
+H:\p\backend_anime_topicos\AnimeGraphApi\obj\Debug\net8.0\refint\AnimeGraphApi.dll
+H:\p\backend_anime_topicos\AnimeGraphApi\obj\Debug\net8.0\AnimeGraphApi.xml
+H:\p\backend_anime_topicos\AnimeGraphApi\obj\Debug\net8.0\AnimeGraphApi.pdb
+H:\p\backend_anime_topicos\AnimeGraphApi\obj\Debug\net8.0\AnimeGraphApi.genruntimeconfig.cache
+H:\p\backend_anime_topicos\AnimeGraphApi\obj\Debug\net8.0\ref\AnimeGraphApi.dll
